@@ -110,6 +110,7 @@ $ yarn install
 # Run
 $ yarn start
 
+```
 ## 🤝 Contribuições
 
 ## 📜 License
