@@ -1,8 +1,8 @@
 <h2 align="center">
   <img src="https://img.shields.io/badge/Next%20Level%20Week-%233-00b8d3?style=for-the-badge" alt="Evento Next Level Week 3" />
-  <img src="https://img.shields.io/badge/web%3F-no-00b8d3?style=for-the-badge" alt="Sistema web No" />
-  <img src="https://img.shields.io/badge/server%3F-no-00b8d3?style=for-the-badge" alt="Server No" />
-  <img src="https://img.shields.io/badge/app mobile%3F-No-00b8d3?style=for-the-badge" alt="Aplicativo mobile No" />
+  <img src="https://img.shields.io/badge/web%3F-Yes-00b8d3?style=for-the-badge" alt="Sistema web Yes" />
+  <img src="https://img.shields.io/badge/server%3F-yes-00b8d3?style=for-the-badge" alt="Server Yes" />
+  <img src="https://img.shields.io/badge/app mobile%3F-yes-00b8d3?style=for-the-badge" alt="Aplicativo mobile Yes" />
   <img src="https://img.shields.io/github/license/matheusfelipeog/proffy?color=00b8d3&style=for-the-badge" alt="License" />
 </h2>
 
@@ -46,30 +46,69 @@ POST - https://localhost:3333/orphanages --> Cadastra orfanato<br>
 
 ## 🛠 Techs
 
-#### Backend:
- - Typescript
- - NodeJS
- - Express
- - Express Async Errors
- - TypeORM
- - SQLite
- - Multer
- - Yup
- - Cors
+This project was developed using the following technologies:
 
-#### Web:
-- Typescript
-- ReactJS ⚛️
-- React Router Dom
-- React Icons
-- Leaflet 🍃
-- API do Mapbox 🗺️
-
-#### Mobile:
-> Em breve...
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+- [SQLite](https://www.sqlite.org/index.html)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
+- [Expo](https://expo.io/)
 
 ## ⚙ Instalação e Start
+```bash
+# Clone this repository
+$ git clone https://github.com/Olliveer/Happy.git
+# Go into the repository
+$ cd backend
 
+# Install dependencies
+$ yarn install
+
+# Run Migrates
+$ yarn typeorm migration:run
+
+# Start server
+$ yarn dev
+
+# running on port 3333
+```
+
+### Install Front-end
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Olliveer/Happy.git
+
+# Go into the repository
+$ cd web
+
+# Install dependencies
+$ yarn install
+
+# Run
+$ yarn start
+
+# running on port 3333
+
+```
+
+### Install Mobile
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Olliveer/Happy.git
+
+# Go into the repository
+$ mobile
+
+# Install dependencies
+$ yarn install
+
+# Run
+$ yarn start
 
 ## 🤝 Contribuições
 
