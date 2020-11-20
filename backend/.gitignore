@@ -3,3 +3,10 @@
 # dependencies
 /node_modules
 uploads/*
+yarn.lock
+
+.env
+dist
+
+
+!uploads/.gitkeep

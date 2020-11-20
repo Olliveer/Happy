@@ -6,8 +6,8 @@ export default {
         return {
             id: orphanage.id,
             name: orphanage.name,
-            latitude: orphanage.latitude,
-            longitude:orphanage.longitude,
+            latitude: Number(orphanage.latitude),
+            longitude: Number(orphanage.longitude),
             about: orphanage.about,
             instructions: orphanage.instructions,
             opening_hours: orphanage.opening_hours,
@@ -16,7 +16,7 @@ export default {
         };
     },
 
-    renderMany(orphanages: Orphanage[]){
+    renderMany(orphanages: Orphanage[]) {
         return orphanages.map(orphanage => this.render(orphanage));
     }
 };
