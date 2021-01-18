@@ -30,6 +30,20 @@ export class createUsers1610833197601 implements MigrationInterface {
             type: "varchar",
             isNullable: false,
           },
+          {
+            name: "created_at",
+            type: "TIMESTAMP",
+            isPrimary: false,
+            isNullable: false,
+            default: "CURRENT_TIMESTAMP",
+          },
+          {
+            name: "updated_at",
+            type: "TIMESTAMP",
+            isPrimary: false,
+            isNullable: false,
+            default: "CURRENT_TIMESTAMP",
+          },
         ],
       })
     );
