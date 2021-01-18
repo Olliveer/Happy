@@ -27,7 +27,7 @@ export default {
 
     return res.json(orphanageView.renderMany(orphanages));
   },
-  
+
   async create(req: Request, res: Response) {
     const {
       name,

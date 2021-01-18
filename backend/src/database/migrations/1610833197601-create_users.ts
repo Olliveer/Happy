@@ -30,9 +30,9 @@ export class createUsers1610833197601 implements MigrationInterface {
             type: "varchar",
             isNullable: false,
           },
-        ]
+        ],
       })
-    )
+    );
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
